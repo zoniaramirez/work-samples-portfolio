@@ -25,10 +25,30 @@ nav ul li {
     display: inline;
     list-style-type: none;
     text-decoration: underline;
-    padding-right: 20px;
-    
+    padding-right: 20px;  
 }
 
+.background {
+    background-image: url("../assets/Screenshot stripes.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+.subheading-text {
+    color: rgb(22, 160, 165);
+    align-self: center;
+    float: right;
+    padding-top: 150px;
+    padding-right: 50px;   
+}
+
+mark {
+    padding: 10px;
+    background-color: rgb(22, 160, 165);
+    color: rgb(71, 66, 66);
+}
 
 
     
