@@ -10,15 +10,15 @@ header {
     align-items: center;
     width: 100%;
     height: 80px;
-    background-color: rgb(71, 66, 66);
-    color: rgb(22, 160, 165);
+    background-color: rgb(44, 41, 41);
+    color: rgb(206, 73, 199);
 }
 
 h1 {
     padding-left: 80px;
     padding-right: 10px;
-    background-color: rgb(22, 160, 165);
-    color: rgb(71, 66, 66);
+    background-color: rgb(206, 73, 199);
+    color: rgb(44, 41, 41);
 }   
 
 nav ul li {
@@ -29,7 +29,7 @@ nav ul li {
 }
 
 .background {
-    background-image: url("../assets/Screenshot stripes.jpg");
+    background-image: url("../assets/backgroundimage.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -37,7 +37,6 @@ nav ul li {
 }
 
 .subheading-text {
-    color: rgb(22, 160, 165);
     align-self: center;
     float: right;
     padding-top: 150px;
@@ -46,9 +45,36 @@ nav ul li {
 
 mark {
     padding: 10px;
-    background-color: rgb(22, 160, 165);
-    color: rgb(71, 66, 66);
+    background-color: rgb(206, 73, 199);
+    color: rgb(44, 41, 41);
 }
 
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 15vh;
+}
 
-    
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 50vh;
+}
+
+footer ul li {
+    display: inline;
+    list-style-type: none;
+    text-align: end;
+    text-align: justify;
+}
