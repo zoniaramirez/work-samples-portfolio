@@ -79,7 +79,10 @@ footer {
     padding: 20px;
 }
 
+footer ul {
+    display: flex; 
+}
 footer ul li {
-    display: inline;
     list-style-type: none;
+    margin: 0 180px;
 }
