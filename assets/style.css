@@ -24,7 +24,6 @@ h1 {
 nav ul li {
     display: inline;
     list-style-type: none;
-    text-decoration: underline;
     padding-right: 20px;  
 }
 
@@ -100,6 +99,7 @@ footer ul li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-top: 60px;
+    padding-left: 30px;
     size: 30px 40px;
     
     
