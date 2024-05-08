@@ -41,6 +41,7 @@ nav ul li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60px 60px;
+    display: block;
 }
 
 .subheading-text {
@@ -98,14 +99,13 @@ footer ul li {
 .workimg {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 50px 50px;
     padding-top: 60px;
     size: 30px 40px;
+    
     
 }
 
 @media screen and (max-width: 769px) {
-    /* Use flex-direction to stack the navbar, sidebar, and body */
     main {
         font-size: smaller;
         color: rgb(31, 33, 142);
@@ -148,6 +148,6 @@ footer ul li {
         background-position: bottom;
         background-size: 100px 100px;
     }
-  }
+}
 
   
