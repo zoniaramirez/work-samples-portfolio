@@ -95,6 +95,15 @@ footer ul li {
     margin: 0 10px;
 }
 
+.workimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px 50px;
+    padding-top: 60px;
+    size: 30px 40px;
+    
+}
+
 @media screen and (max-width: 769px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     main {
@@ -128,5 +137,17 @@ footer ul li {
     #section-1 {
         display: block;
     }
+    
+    .workimg {
+        display: none;
+    }
+
+    article {
+        background-image: url("../assets/newprojectsoon.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100px 100px;
+    }
   }
+
   
