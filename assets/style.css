@@ -84,5 +84,37 @@ footer ul {
 }
 footer ul li {
     list-style-type: none;
-    margin: 0 180px;
+    margin: 0 10px;
 }
+
+@media screen and (max-width: 769px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main {
+        font-size: smaller;
+        color: rgb(31, 33, 142);
+    }
+
+    header {  
+      background: rgb(31, 33, 142);
+      text-align: center;
+    }
+
+    header ul li {
+       font-size: x-small;
+       display: block;
+    }
+
+    footer {
+      background-color: #df6bcb;
+      text-align: center;
+    }
+
+    footer ul {
+        display: block;
+    }
+
+    footer ul li {
+        font-size: smaller;
+    }
+  }
+  
