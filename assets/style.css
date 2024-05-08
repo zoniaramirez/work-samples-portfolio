@@ -35,7 +35,7 @@ nav ul li {
     height: 200px;
 }
 
-#section-1 {
+.section-1 {
     background-image: url("../assets/avatar.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -100,9 +100,11 @@ footer ul li {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-top: 60px;
     padding-left: 30px;
-    size: 30px 40px;
-    
-    
+    size: 30px 40px;   
+}
+
+.workimg:hover {
+    background-color: rgb(206, 73, 199);
 }
 
 @media screen and (max-width: 769px) {
@@ -122,7 +124,7 @@ footer ul li {
     }
 
     footer {
-      background-color: #df6bcb;
+      background-color: rgb(206, 73, 199);
       text-align: center;
     }
 
