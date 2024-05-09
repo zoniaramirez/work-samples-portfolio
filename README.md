@@ -25,5 +25,5 @@ This webpage was created from scratch as a challenge for bootcamp students to ap
 
 [LiveURL](https://zoniaramirez.github.io/work-samples-portfolio/)
 
-[GitHubRepo](https://github.com/zoniaramirez/work-samples-portfolio.gitr)
+[GitHubRepo](https://github.com/zoniaramirez/work-samples-portfolio)
 
