@@ -69,7 +69,6 @@ mark {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 30px;
 }
 
 .grid-2 {
@@ -95,14 +94,10 @@ footer ul li {
     margin: 0 10px;
 }
 
-.workimg {
-    padding-top: 0px;
-    padding-left: 20px;
-}
 
 @media screen and (max-width: 769px) {
     main {
-        font-size: smaller;
+        font-size: x-small;
         color: rgb(31, 33, 142);
     }
 
@@ -134,15 +129,11 @@ footer ul li {
     }
     
     .workimg {
+        padding-top: 100px;
+        padding-left: 20px;
+    }
+
+    #workimg1 {
         display: none;
     }
-
-    article {
-        background-image: url("../assets/project1.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100px 100px;
-    }
 }
-
-  
