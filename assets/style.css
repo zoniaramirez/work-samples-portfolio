@@ -96,15 +96,8 @@ footer ul li {
 }
 
 .workimg {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-top: 60px;
-    padding-left: 30px;
-    size: 30px 40px;   
-}
-
-.workimg:hover {
-    background-color: rgb(206, 73, 199);
+    padding-top: 0px;
+    padding-left: 20px;
 }
 
 @media screen and (max-width: 769px) {
@@ -145,9 +138,9 @@ footer ul li {
     }
 
     article {
-        background-image: url("../assets/newprojectsoon.png");
+        background-image: url("../assets/project1.png");
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-position: center;
         background-size: 100px 100px;
     }
 }
