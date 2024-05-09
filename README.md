@@ -15,14 +15,15 @@ This webpage was created from scratch as a challenge for bootcamp students to ap
     - Structuring the CCS.
     - Having image elements.
     - Having a code structure and sequential order.
+    - Having a link to live url of project.
 
 ## Screenshot
 
-![alttext](assets/images/screenshot.png)
+![alttext](assets/screenshot.png.png)
 
 ## Links
 
-[LiveURL](https://zoniaramirez.github.io/html-seo-refactor/)
+[LiveURL](https://zoniaramirez.github.io/work-samples-portfolio/)
 
-[GitHubRepo](https://github.com/zoniaramirez/html-seo-refactor)
+[GitHubRepo](https://github.com/zoniaramirez/work-samples-portfolio.gitr)
 
