@@ -19,7 +19,7 @@ This webpage was created from scratch as a challenge for bootcamp students to ap
 
 ## Screenshot
 
-![alttext](assets/screenshot.png.png)
+![alttext](/assets/screenshot.png)
 
 ## Links
 
